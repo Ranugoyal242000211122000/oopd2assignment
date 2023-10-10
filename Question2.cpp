@@ -232,6 +232,20 @@ void Library :: jon()
   
 
 }
+void Library:: purchase_book(string isbn,string author,int copies)
+  {   for(int i=0;i<200;i++)
+       {if(B[i].Isbn==isbn&& B[i].author==author)
+        {  cout<<"this is already in library \n";
+          B[i].count+=copies;
+        }
+
+       }    
+          
+            cout<<"book succsefully purchased\n";
+          
+       
+
+  }
 
 
 
